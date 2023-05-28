@@ -1,6 +1,6 @@
 <h1 align="center">Bit-a-Bit Store</h1>
 
-Progetto sviluppato dal Gruppo 14[^
+Progetto sviluppato dal Gruppo 14^[
 Membri del grupppo:
 - nome uno
 - nome due
