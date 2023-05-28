@@ -1,6 +1,11 @@
 <h1 align="center">Bit-a-Bit Store</h1>
 
-Progetto sviluppato per il corso di _Architettura degli Elaboratori_, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'@UniversitaDellaCalabria.
+Progetto sviluppato dal Gruppo 14[^
+Membri del grupppo:
+- nome uno
+- nome due
+- nome tre
+] per il corso di _Architettura degli Elaboratori_, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'[UNICAL](https://www.unical.it).
 
 <p align="center">
     <img src="tui.png"></img>
