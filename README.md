@@ -25,7 +25,4 @@ I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile
 
 In modo da evitare di scrivere lunghi comandi per fare operazioni come eseguire, disassemblare o debuggare un file sorgente assembly, ho scritto un semplice script bash che rende tutto più veloce.
 
-[^1]: Membri del grupppo:
-    - nome uno
-    - nome due
-    - nome tre
+[^1]: Membri del grupppo:<br>- Nome Uno<br>- Nome Due<br>- Nome Tre<br>
