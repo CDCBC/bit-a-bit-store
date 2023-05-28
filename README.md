@@ -1,11 +1,6 @@
 <h1 align="center">Bit-a-Bit Store</h1>
 
-Progetto sviluppato dal Gruppo 14^[
-Membri del grupppo:
-- nome uno
-- nome due
-- nome tre
-] per il corso di _Architettura degli Elaboratori_, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'[UNICAL](https://www.unical.it).
+Progetto sviluppato dal Gruppo 14[^1] per il corso di _Architettura degli Elaboratori_, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'[UNICAL](https://www.unical.it).
 
 <p align="center">
     <img src="tui.png"></img>
@@ -29,3 +24,8 @@ I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile
 ## asm
 
 In modo da evitare di scrivere lunghi comandi per fare operazioni come eseguire, disassemblare o debuggare un file sorgente assembly, ho scritto un semplice script bash che rende tutto più veloce.
+
+[^1]: Membri del grupppo:
+    - nome uno
+    - nome due
+    - nome tre
