@@ -1,2 +1,5 @@
-# bit-a-bit-store
-A program to manage the inventory of an Electonics Store
+<h1 align="center">Bit-a-Bit Store</h1>
+
+<p align="center">
+    <img src="tui.png"></img>
+</p>
