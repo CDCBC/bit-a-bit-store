@@ -30,5 +30,5 @@ Per una sintesti dei comandi eseguire `./asm help`.
 ## Gruppo
 
 - [Alfredo Carlino](https://github.com/CarlinoAlfredo)
-- Giorgio Carlino
+- [Giorgio Carlino](https://github.com/carlinogiorgio)
 - Mario D'Andrea
