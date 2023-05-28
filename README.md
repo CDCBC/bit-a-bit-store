@@ -26,3 +26,9 @@ I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile
 In modo da evitare di scrivere lunghi comandi per fare operazioni come eseguire, disassemblare o debuggare un file sorgente assembly, ho scritto un semplice script bash che rende tutto più veloce.
 
 Per una sintesti dei comandi eseguire `./asm help`.
+
+## Gruppo
+
+- Alfredo Carlino
+- Giorgio Carlino
+- Mario D'Andrea
