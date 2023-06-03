@@ -6,6 +6,16 @@ Progetto sviluppato dal Gruppo 14 per il corso di _Architettura degli Elaborator
     <img src="tui.png"></img>
 </p>
 
+Il programma è scritto in (GNU) ARM Assembly, ma fa uso di alcune funzioni della Libreria Standard di C. Ciò per evitare di ricorrere alle syscall di Linux.
+
+## Il programma
+
+Per eseguire il programma in GNU/Linux x86_64 è necessario avere `aarch64-linux-gnu-gcc` (sia per Arch che per Debian) e `qemu-user-binfmt` (per Debian) o `qemu-user` (per Arch), e quindi eseguire:
+
+```bash
+aarch64-linux-gnu-gcc -static bit-a-bit_store.s -o bit-a-bit_store && qemu-aarch64 bit-a-bit_store
+```
+
 All'avvio il programma mostra una tabella e la possibilità di eseguire un'azione. Le righe della tabella costituiscono i prodotti del negozio di elettronica, ciscuno descritto da diversi campi.
 
 I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile eseguire sui dati sono:
@@ -25,7 +35,7 @@ I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile
 
 In modo da evitare di scrivere lunghi comandi per fare operazioni come eseguire, disassemblare o debuggare un file sorgente assembly, ho scritto un semplice script bash che rende tutto più veloce.
 
-Per una sintesti dei comandi eseguire `./asm help`.
+Per una sintesti dei comandi eseguire `asm help`.
 
 ## Gruppo
 
