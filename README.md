@@ -21,7 +21,7 @@ All'avvio il programma mostra una tabella e la possibilità di eseguire un'azion
 I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile eseguire sui dati sono:
 
 - aggiungere un nuovo prodotto, inserendo ciascun campo da terminale
-- rimuovere un prodotto dopo averne specificando la posizione
+- rimuovere un prodotto dopo averne specificato la posizione
 - filtrare i prodotti
     - per _prezzo_ (fino ad un certo prezzo o a partire da un certo prezzo)
     - per _tipo_
