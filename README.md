@@ -16,7 +16,7 @@ Per eseguire il programma in GNU/Linux x86_64 è necessario avere `aarch64-linux
 aarch64-linux-gnu-gcc -static bit-a-bit_store.s -o bit-a-bit_store && qemu-aarch64 bit-a-bit_store
 ```
 
-All'avvio il programma mostra una tabella e la possibilità di eseguire un'azione. Le righe della tabella costituiscono i prodotti del negozio di elettronica, ciscuno descritto da diversi campi.
+All'avvio il programma mostra una tabella e la possibilità di eseguire un'azione. Le righe della tabella costituiscono i prodotti del negozio di elettronica, ciascuno descritto da diversi campi.
 
 I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile eseguire sui dati sono:
 
@@ -33,12 +33,14 @@ I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile
 
 ## asm
 
-In modo da evitare di scrivere lunghi comandi per fare operazioni come eseguire, disassemblare o debuggare un file sorgente assembly, ho scritto un semplice script bash che rende tutto più veloce.
+In modo da evitare di scrivere lunghi comandi per fare operazioni come eseguire, disassemblare fare il debug un file sorgente assembly, ho scritto un semplice script bash che rende tutto più veloce.
 
-Per una sintesti dei comandi eseguire `asm help`.
+Per una sintesi dei comandi eseguire `asm help`.
 
 ## Gruppo
 
+- Silvio Bartolotta
 - [Alfredo Carlino](https://github.com/CarlinoAlfredo)
 - [Giorgio Carlino](https://github.com/carlinogiorgio)
-- Mario D'Andrea
+- [Alessandro Cava](https://github.com/kissanotherday)
+- [Mario D'Andrea](https://github.com/ormai)
