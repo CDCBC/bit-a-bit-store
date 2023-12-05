@@ -1,12 +1,12 @@
 <h1 align="center">Bit-a-Bit Store</h1>
 
-Progetto sviluppato dal Gruppo 14 per il corso di _Architettura degli Elaboratori_, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'[UNICAL](https://www.unical.it) (A.A. 2022/23).
+Progetto sviluppato dal Gruppo 14 per il corso di *Architettura degli elaboratori*, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'[UNICAL](https://www.unical.it) (A.A. 2022/23).
 
 <p align="center">
     <img src="tui.png"></img>
 </p>
 
-Il programma è scritto in (GNU) ARM Assembly, ma fa uso di alcune funzioni della Libreria Standard di C. Ciò per evitare di ricorrere alle syscall di Linux.
+Il programma è scritto in (GNU) ARM Assembly, ma fa uso di alcune funzioni della Libreria Standard di C.
 
 ## Il programma
 
