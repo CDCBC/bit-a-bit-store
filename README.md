@@ -1,22 +1,23 @@
-<h1 align="center">Bit-a-Bit Store</h1>
+# Bit-a-Bit Store
 
-Progetto sviluppato dal Gruppo 14 per il corso di *Architettura degli elaboratori*, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'[UNICAL](https://www.unical.it) (A.A. 2022/23).
+Progetto sviluppato dal Gruppo 14 per il corso di *Architettura degli elaboratori*, che si tiene durante il secondo semestre del primo anno del CdS in Informatica presso l'[Unical](https://www.unical.it) (A.A. 2022/23).
 
-<p align="center">
-    <img src="tui.png"></img>
-</p>
+Il progetto è scritto in ARM Assembly, ma fa uso di alcune funzioni della Libreria Standard di C.
 
-Il programma è scritto in (GNU) ARM Assembly, ma fa uso di alcune funzioni della Libreria Standard di C.
+![](demo.png)
 
-## Il programma
+## Compilare ed eseguire l'applicazione
 
-Per eseguire il programma in GNU/Linux x86_64 è necessario avere `aarch64-linux-gnu-gcc` (sia per Arch che per Debian) e `qemu-user-binfmt` (per Debian) o `qemu-user` (per Arch), e quindi eseguire:
+Su GNU/Linux x86_64 è necessario avere `aarch64-linux-gnu-gcc` (sia per Arch che per Debian) e `qemu-user-binfmt` (per Debian) o `qemu-user` (per Arch), e quindi eseguire:
 
 ```bash
-aarch64-linux-gnu-gcc -static bit-a-bit_store.s -o bit-a-bit_store && qemu-aarch64 bit-a-bit_store
+aarch64-linux-gnu-gcc -static bit-a-bit_store.s -o bit-a-bit_store
+qemu-aarch64 bit-a-bit_store
 ```
 
-All'avvio il programma mostra una tabella e la possibilità di eseguire un'azione. Le righe della tabella costituiscono i prodotti del negozio di elettronica, ciascuno descritto da diversi campi.
+## L'applicazione
+
+All'avvio si ha una tabella e la possibilità di eseguire un'azione. Le righe della tabella costituiscono i prodotti del negozio di elettronica, ciascuno descritto da diversi campi.
 
 I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile eseguire sui dati sono:
 
@@ -30,17 +31,3 @@ I dati sono salvati e letti da un file `entries.dat`. Le azioni che è possibile
 - scambiare i primi due prodotti non ordinati in modo crescente per il campo _scorte_
 - ordinare tutta la tabella per _scorte_ in modo crescente
 - calcolare la media decimale dei prezzi dei prodotti
-
-## asm
-
-In modo da evitare di scrivere lunghi comandi per fare operazioni come eseguire, disassemblare fare il debug un file sorgente assembly, ho scritto un semplice script bash che rende tutto più veloce.
-
-Per una sintesi dei comandi eseguire `asm help`.
-
-## Gruppo
-
-- Silvio Bartolotta
-- [Alfredo Carlino](https://github.com/CarlinoAlfredo)
-- [Giorgio Carlino](https://github.com/carlinogiorgio)
-- [Alessandro Cava](https://github.com/kissanotherday)
-- [Mario D'Andrea](https://github.com/ormai)
