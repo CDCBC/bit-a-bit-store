@@ -4,22 +4,21 @@ Group 14's project submission for the Computer Architecture course at [Unical](h
 
 The app is written in ARM assembly, but calls some functions from `libc`.
 
-![](demo.png)
+![Demo of the terminal user interface](demo.png)
 
 ## Compile and run the app
 
-On GNU/Linux x86_64 you need `aarch64-linux-gnu-gcc` (for Arch and Debian) e `qemu-user-binfmt` (for Debian) o `qemu-user` (for Arch), then run:
+On GNU/Linux x86_64 you need `aarch64-linux-gnu-gcc` (both Arch and Debian) e `qemu-user-binfmt` (Debian) or `qemu-user` (Arch), then run:
 
-```bash
-aarch64-linux-gnu-gcc -static bit-a-bit_store.s -o bit-a-bit_store
-qemu-aarch64 bit-a-bit_store
+```sh
+make run
 ```
 
 ## The app
 
 At startup the user is presented a table and an action prompt. The rows of the table represent products of a tech store, each one described by some fields.
 
-The data are stored in a file `entries.dat`. The action that can be executed on the data are:
+The data are stored in a file `entries.dat`. The actions that can be performed on the data are:
 
 - add a new product, typing each field from the terminal
 - remove a product based on its position
